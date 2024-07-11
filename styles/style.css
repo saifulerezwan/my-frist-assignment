@@ -116,3 +116,76 @@ body {
 
 
 }
+.mainiframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.iframe{
+    font-size: 40px;
+    line-height: 2;
+    padding: 20px;
+}
+.video{
+    width: 1250px;
+    /* padding: 40px; */
+}
+.videowidth{
+    width: 100%;
+    height: 576px;
+}
+.current_target_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.targetcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 284px;
+    padding: 40px;
+    gap: 8px;
+    
+}
+.imagesize{
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+}
+.targetcard h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.targetcard p{
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+.target_btn{
+    color: black;
+    font-weight: 600;
+}
+.maincard_target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.bg_color1{
+    background-color: rgb(250, 250, 252);
+}
+.bg_color2{
+    background-color: rgb(251, 251, 252);
+}
+.bg_color3{
+    background-color: rgb(255, 255, 255);
+}
