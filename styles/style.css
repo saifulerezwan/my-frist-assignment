@@ -189,3 +189,61 @@ body {
 .bg_color3{
     background-color: rgb(255, 255, 255);
 }
+.help_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg_img{
+    background-image: url('../images/handshake.jpg');
+    width: 1140px;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 64px 48px;
+    background-position-y: center;
+    border-radius: 18px;
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 64px 48px;
+.info_btn{
+    display: flex;
+    margin: 0px 16px;
+    gap: 18px;
+
+}
+.input{
+    padding: 20px 15px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 212, 212);
+    font-size: 16px;
+    font-weight: 400;
+}
+.button{
+    padding: 20px 15px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 212, 212);
+    font-size: 16px;
+    font-weight: 400;
+}
+.text1{
+    font-size: 40px;
+    color: white;
+}
+.text2{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(124, 124, 124);
+}
